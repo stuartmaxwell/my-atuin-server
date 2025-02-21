@@ -3,7 +3,7 @@ My Atuin Server
 
 ## Server Setup
 
-Set up the following environment variables:
+- Set up the following environment variables:
 
 ```env
 ATUIN_DB_URI=postgres://user:password@hostname/database
@@ -11,6 +11,8 @@ ATUIN_HOST=0.0.0.0
 ATUIN_OPEN_REGISTRATION=true
 ATUIN_PORT=8888
 ```
+
+- Change the Coolify domain name to: `https://custom.domain.com:8888`
 
 ## Client Setup
 
