@@ -19,4 +19,6 @@ ATUIN_PORT=8888
 
 - Edit the `~/.config/atuin/config.toml` file.
 - Set the sync_address as follows: `sync_address = "https://custom.domain.com"`
+- Run the registration: `atuin register -u <YOUR_USERNAME> -e <YOUR EMAIL>`
+- Save the key somewhere safe: `atuin key`
 - After the registration, the `ATUIN_OPEN_REGISTRATION` setting above can be changed to `false`.
