@@ -1,5 +1,6 @@
-# my-atuin-server
-My Atuin Server
+# My Atuin Server
+
+My set up notes for getting this running on Coolify.
 
 ## Server Setup
 
