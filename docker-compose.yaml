@@ -5,7 +5,6 @@ services:
     volumes:
       - atuin_config:/config
     environment:
-      ATUIN_DB_URI: postgres://$ATUIN_DB_USERNAME:$ATUIN_DB_PASSWORD@$ATUIN_DB_HOST/$ATUIN_DB_NAME
       RUST_LOG: info,atuin_server=debug
 
 volumes:
