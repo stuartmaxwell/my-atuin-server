@@ -1,6 +1,6 @@
 services:
   atuin:
-    image: ghcr.io/atuinsh/atuin:v18.4.0
+    image: ghcr.io/atuinsh/atuin:v18.24.6
     command: server start
     volumes:
       - atuin_config:/config
